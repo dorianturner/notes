@@ -1,0 +1,1 @@
+bond where a pair of electrons is shared, mostly in organic chem
