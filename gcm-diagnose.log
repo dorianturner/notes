@@ -1,0 +1,191 @@
+﻿Diagnose log at 2023-10-19T17:39:36Z
+
+AppPath: /usr/bin/git-credential-manager
+InstallDir: /usr/share/git-credential-manager-core/
+Version: 2.1.2
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Linux
+OSVersion: Linux archlinux 6.1.43-1-lts #1 SMP PREEMPT_DYNAMIC Mon, 07 Aug 2023 07:49:21 +0000 x86_64 GNU/Linux
+Reading environment variables... OK
+ Variables:
+MOZ_ENABLE_WAYLAND=1
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/system-getty.slice/getty@tty1.service/memory.pressure
+XDG_BACKEND=wayland
+SHELL=/bin/bash
+XDG_RUNTIME_DIR=/run/user/1000
+INVOCATION_ID=a9a4e6a45779429ab1922f9bde98518e
+CREDENTIALS_DIRECTORY=/run/credentials/getty@tty1.service
+OLDPWD=/home/dorian
+GIT_TRACE2_PARENT_SID=eb085e74-b8ee-4f7b-8940-fccb49b9fc01
+XDG_SESSION_CLASS=user
+XCURSOR_SIZE=24
+XDG_SEAT=seat0
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+WEZTERM_PANE=0
+WAYLAND_DISPLAY=wayland-1
+_=/usr/bin/git-credential-manager
+XDG_SESSION_ID=1
+WEZTERM_CONFIG_DIR=/home/dorian/.config/wezterm
+TERM=xterm-256color
+WEZTERM_EXECUTABLE_DIR=/usr/bin
+LATEX_MK_DIR=/usr/share/latex-mk
+MOTD_SHOWN=pam
+SYSTEMD_EXEC_PID=595
+LANG=en_US.UTF-8
+HOME=/home/dorian
+DISPLAY=:0
+USER=dorian
+SHLVL=2
+WEZTERM_CONFIG_FILE=/home/dorian/.config/wezterm/wezterm.lua
+TERM_PROGRAM_VERSION=20230712-072601-f4abf8fd
+DEBUGINFOD_URLS=https://debuginfod.archlinux.org 
+XDG_SESSION_TYPE=wayland
+PWD=/home/dorian/Documents/notes
+WEZTERM_UNIX_SOCKET=/run/user/1000/wezterm/gui-sock-66770
+WEZTERM_EXECUTABLE=/usr/bin/wezterm-gui
+LOGNAME=dorian
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+COLORTERM=truecolor
+PATH=/home/dorian/.local/lib/python3.11/site-packages:/home/dorian/.local/bin:/home/dorian/.local/lib/python3.11/site-packages:/home/dorian/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/rustup/bin:/usr/lib/rustup/bin
+TERM_PROGRAM=WezTerm
+HISTCONTROL=
+_JAVA_AWT_WM_NONREPARENTING=1
+XDG_CURRENT_DESKTOP=Hyprland
+HYPRLAND_CMD=Hyprland
+XDG_VTNR=1
+MAIL=/var/spool/mail/dorian
+HYPRLAND_INSTANCE_SIGNATURE=4d14edd8a53389b2583a00da1484bec4408d9207_1697450228
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is '/tmp/'...
+Checking basic file I/O...
+Writing to temporary file '/tmp/6be544fd9fed106d4dda116e'... OK
+Reading from temporary file '/tmp/6be544fd9fed106d4dda116e'... OK
+Deleting temporary file '/tmp/6be544fd9fed106d4dda116e'... OK
+Testing IFileSystem instance...
+UserHomePath: /home/dorian
+UserDataDirectoryPath: /home/dorian/.gcm
+GetCurrentDirectory(): /home/dorian/Documents/notes
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: False
+Exception:
+System.Net.Http.HttpRequestException: Name or service not known (example.com:80)
+ ---> System.Net.Sockets.SocketException (0xFFFDFFFF): Name or service not known
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitCredentialManager.Diagnostics.NetworkingDiagnostic.RunInternalAsync(StringBuilder log, IList`1 additionalFiles)
+   at GitCredentialManager.Diagnostics.Diagnostic.RunAsync()
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.42.0'
+Locating current repository... OK
+Git repository at '/home/dorian/Documents/notes/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:/home/dorian/.gitconfig	filter.lfs.required=true
+file:/home/dorian/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:/home/dorian/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:/home/dorian/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:/home/dorian/.gitconfig	user.name=dorianturner
+file:/home/dorian/.gitconfig	user.email=dorianemmanuelturner@gmail.com
+file:/home/dorian/.gitconfig	http.sslverify=true
+file:/home/dorian/.gitconfig	credential.helper=
+file:/home/dorian/.gitconfig	credential.helper=/usr/bin/git-credential-manager
+file:/home/dorian/.gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=true
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	remote.origin.url=https://github.com/dorianturner/notes.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: False
+Exception:
+System.Exception: No credential store has been selected.
+
+Set the GCM_CREDENTIAL_STORE environment variable or the credential.credentialStore Git configuration setting to one of the following options:
+
+  secretservice : freedesktop.org Secret Service (requires graphical interface)
+  gpg           : GNU `pass` compatible credential storage (requires GPG and `pass`)
+  cache         : Git's in-memory credential cache
+  plaintext     : store credentials in plain-text files (UNSECURE)
+
+See https://aka.ms/gcm/credstores for more information.
+
+   at GitCredentialManager.CredentialStore.EnsureBackingStore()
+   at GitCredentialManager.CredentialStore.Remove(String service, String account)
+   at GitCredentialManager.Diagnostics.CredentialStoreDiagnostic.RunInternalAsync(StringBuilder log, IList`1 additionalFiles)
+   at GitCredentialManager.Diagnostics.Diagnostic.RunAsync()
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential...Deleting test credential...
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: /home/dorian/.local/.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: /home/dorian/.local/.IdentityService/msal.cache
+KeyringCollection: 
+KeyringSchemaName: 
+KeyringSecretLabel: 
+KeyringAttribute1: (,)
+KeyringAttribute2: (,)
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
