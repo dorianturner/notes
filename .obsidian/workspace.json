@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "824cb1dc6b08e123",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "amides.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "amines.md",
+                "file": "amides.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "amines.md",
+                "file": "amides.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "amines.md"
+                "file": "amides.md"
               }
             }
           }
@@ -160,11 +172,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "2f45d24319a0029d",
+  "active": "824cb1dc6b08e123",
   "lastOpenFiles": [
+    "attatchments/Pasted image 20231019210412.png",
+    "amines.md",
+    "amides.md",
     "gcm-diagnose.log",
     "questions Chem.md",
-    "amines.md",
     "alkyl groups.md",
     "attatchments/Pasted image 20231019154342.png",
     "attatchments",

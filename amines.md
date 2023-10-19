@@ -48,4 +48,7 @@ CH3CH2CN + 4[H]<sup>+</sup> --> CH3CH2CH2NH2
 
 Why potentially bad? KCN toxic / low yield
 
-Remember [[arenes]] / aromatics? You can reduce nitro groups on any aromatic amines with Sn and HCl. Its annoyingly specific, but you just need to know this.
+Remember [[arenes]] / aromatics? You can reduce nitro groups on any aromatic amines with Sn and HCl. Its annoyingly specific, but you just need to know this. Alternatively just use hydrogen and nickel
+
+
+
