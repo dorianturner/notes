@@ -1,7 +1,7 @@
 ### Chemistry
 - [ ] [[periodic table]]
 - [ ] [[arenes]]
-- [ ] [[amines]]
+- [x] [[amines]]
 - [ ] [[polymers]]
 - [ ] [[amino acids, proteins and DNA]]
 
@@ -13,9 +13,10 @@
 ### Maths
 
 - [ ] [[integration]]
+- [ ] all of Tanjas work
 
 ### Interview
 
-- [ ] [[interview questions]]
+- [ ] [[interview questions maths]]
 
 

@@ -25,26 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "amines.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "824cb1dc6b08e123",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "amides.md",
+                "file": "arenes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "amides.md",
+                "file": "arenes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "amides.md",
+                "file": "arenes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "amides.md"
+                "file": "arenes.md"
               }
             }
           }
@@ -172,22 +160,25 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "824cb1dc6b08e123",
+  "active": "2f45d24319a0029d",
   "lastOpenFiles": [
-    "attatchments/Pasted image 20231019210412.png",
-    "amines.md",
-    "amides.md",
-    "gcm-diagnose.log",
+    "attatchments/Pasted image 20231020093451.png",
     "questions Chem.md",
+    "arenes.md",
+    "amides.md",
+    "amines.md",
+    "attatchments/Pasted image 20231019213833.png",
+    "Half Term Revision Plan.md",
+    "Bronsted-Lowry.md",
+    "amino acids, proteins and DNA.md",
+    "periodic table.md",
+    "interview questions maths.md",
+    "attatchments/Pasted image 20231019210412.png",
+    "gcm-diagnose.log",
     "alkyl groups.md",
     "attatchments/Pasted image 20231019154342.png",
     "attatchments",
-    "arenes.md",
     "covalent bond.md",
-    "Bronsted-Lowry.md",
-    "periodic table.md",
-    "Half Term Revision Plan.md",
-    "interview questions.md",
     "Arenes.md"
   ]
 }

@@ -50,5 +50,7 @@ Why potentially bad? KCN toxic / low yield
 
 Remember [[arenes]] / aromatics? You can reduce nitro groups on any aromatic amines with Sn and HCl. Its annoyingly specific, but you just need to know this. Alternatively just use hydrogen and nickel
 
+You can make [[amides]] by reacting a (primary) amine with either an acyl chloride or an acid anhydride.
+
 
 
