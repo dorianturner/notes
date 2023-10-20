@@ -23,3 +23,13 @@ Nitrate benzene with conc nitric and conc sulfuric (catalyst). Electrophilic sub
 
 ![[Pasted image 20231020093451.png]]
 
+Done at 60 C, can substitute more nitro groups if a higher temp used with this method
+
+You can make an electrophile for reaction with benzene by reacting an acyl chloride with an anhydrous AlCl<sub>3</sub> catalyst. Heat under reflux.
+
+Same mechanism, electrophillic substitution, remember the horseshoe.
+
+Repeat from [[amines]] , can reduce a nitroarene to an amine with Sn and HCl or Ni and H<sub>2</sub>. Requires 6[H]
+
+Not sure if this next bit really is important: For side groups with lone pairs such as Cl, OH or NH2, the delocalisation in the ring will extend to the lone pairs and strengthen the bond, making it harder for typical reactions like haloalkane elimination / substitution to occur.
+

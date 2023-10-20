@@ -1,9 +1,10 @@
 ### Chemistry
-- [ ] [[periodic table]]
-- [ ] [[arenes]]
+- [x] [[periodic table]]
+- [x] [[arenes]]
 - [x] [[amines]]
 - [ ] [[polymers]]
 - [ ] [[amino acids, proteins and DNA]]
+- [ ] [[nomenclature]]
 
 ### Physics
 
@@ -13,6 +14,7 @@
 ### Maths
 
 - [ ] [[integration]]
+- [ ] Differentiation
 - [ ] all of Tanjas work
 
 ### Interview

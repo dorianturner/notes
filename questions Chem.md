@@ -8,7 +8,9 @@
 5. What is the 2 step process to make amines
 6. Why is there a difference between the enthalpy of hydrogenation of cyclohexene and benzene? [[arenes]]
 7. How to make a nitrobenzene
-8. 
+8. What temperature is a nitro group substituted onto a benzene at?
+9. How do you make an electrophile TO react with benzene?
+10. 
 
 ### Answers
 
@@ -19,4 +21,6 @@
  5. Reflux of a nitrile in ethanol. Reduce with nickel and hydrogen
  6. Benzenes electrons are delocalised into a more stable structure so less energy is lost, -208kJ/mol compared to -360kJ/mol.
  7. Nitrate it with conc nitric acid an conc sulphuric acid catalyst. Mechanism is elecrophillic substitution.
- 8. 
+ 8. 60 C, can use a higher temp if you want more nitro groups to susbtitute
+ 9. Acyl chloride + anhydrous aluminium chloride catalyst at 50C under reflux
+ 10. 
